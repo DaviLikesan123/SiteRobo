@@ -1,0 +1,167 @@
+/* ---- COMEÇO PARTICLES JS ---- */
+
+/* ---- particles.js container ---- */
+
+body {
+  /* background-color: #b61924; */
+  background-color: black;
+  color: white;
+}
+
+#particles-js {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../imagens/image1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+  top: 0;
+}
+
+.js-count-particles {
+  font-size: 1.1em;
+}
+
+#stats, .count-particles {
+  -webkit-user-select: none;
+}
+
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
+
+/* ---- FIM PARTICLES JS ---- */
+
+/*Espaçamento para centralizar */
+
+.navbar-brand {
+  margin-left: 20% !important;
+}
+
+.navbar-brand {
+  font-size: 27px;
+}
+
+/*Espaçamento entre a Imagem */
+
+.navbar-collapse {
+  margin-left: 5%;
+}
+
+.nav-link {
+  font-size: 20px;
+  margin: 0px 20px 0px 8px;
+}
+
+/* titulo */
+
+.robocup h1 {
+  position: absolute;
+}
+
+@media (min-width:300px) {
+  .robocup h1 {
+    top: 45%;
+    left: 23%;
+  }
+}
+
+@media (min-width:350px) {
+  .robocup h1 {
+    left: 25%;
+  }
+}
+
+@media (min-width:400px) {
+  .robocup h1 {
+    left: 28%;
+  }
+}
+
+@media (min-width:576px) {
+  .robocup h1 {
+    top: 40%;
+    left: 43%;
+  }
+}
+
+@media (min-width:600px) and (max-width:767px) {
+  .robocup h1 {
+    top: 45%;
+    left: 40%;
+  }
+}
+
+@media (min-width:768px) {
+  .robocup h1 {
+    top: 45%;
+    left: 37%;
+    font-size: 3rem;
+  }
+}
+
+@media (min-width:800px) and (max-width:900px) {
+  .robocup h1 {
+    top: 47%;
+    left: 39%;
+  }
+}
+
+@media (min-width:992px) {
+  .robocup h1 {
+    top: 45%;
+    left: 40%;
+  }
+}
+
+@media (min-width:1200px) {
+  .robocup h1 {
+    left: 41%;
+  }
+}
+
+.titulo {
+  margin-left: 40%;
+}
+
+.container-fluid img{
+  max-width:100%;
+  max-height:100%;
+  width: auto;
+  height: auto;
+}
+
+
+/* .embed-responsive {
+  max-width:100%;
+  max-height:100%;
+  width: auto;
+  height: auto;
+} */
+
+
+ /* .conteudo .conteudoImg {
+  min-height: 30rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}  */
+/*
+@media (min-width: 768px) {
+  .conteudo .conteudoTexto {
+    padding: 7rem;
+  }
+} */
+/*
+#conteudo1 {
+  background-image: url('../imagens/evento.jpg');
+}
+
+#conteudo2 {
+  background-image: url('../imagens/arma.jpg')
+} */
